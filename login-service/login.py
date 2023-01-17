@@ -134,31 +134,3 @@ def user_list_all():
 if __name__ == '__main__':
     app.run(debug=True)
 
-
-
- # @app.route('/add', methods=['POST']) 
-# def add():
-#     # get user, password and admin password from JSON request body
-#     # add username and password to DB only if admin password is ok 
-#     # return JSON status ok and new user id if success, fail if not (use try except) 
-
-
-# @app.route('/remove', methods=['POST']) 
-# def remove():
-#     # get user, id and admin password from JSON request body 
-#     # remove from DB
-#     # return JSON status ok if success, fail if not 
-
-
-# @app.route('/register', methods=['POST'])
-# def register():
-#     # get user, password and email from JSON request body 
-#     # send confirmation request to email or message to admin 
-#     # if confirm, add to DB
-#     # return JSON status ok and new user id if success, fail if not 
-
-
-# @app.route('/list', methods=['POST']) 
-# def list():
-#     # 
-#     # return JSON with username list if success, fail if not 
